@@ -1,9 +1,9 @@
 <?php return array(
     'root' => array(
         'name' => 'rasulsafarovitch/alif-capital-equiring',
-        'pretty_version' => '1.0.0+no-version-set',
-        'version' => '1.0.0.0',
-        'reference' => null,
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
+        'reference' => '0bf21dd59493eff3fb7dd6e57412c82529024207',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -287,9 +287,9 @@
             'dev_requirement' => false,
         ),
         'rasulsafarovitch/alif-capital-equiring' => array(
-            'pretty_version' => '1.0.0+no-version-set',
-            'version' => '1.0.0.0',
-            'reference' => null,
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'reference' => '0bf21dd59493eff3fb7dd6e57412c82529024207',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
