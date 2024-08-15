@@ -8,16 +8,6 @@
             "RasulSafarovitch\\AlifCapitalEquiring\\": "src/"
         }
     },
-    "extra": {
-        "laravel": {
-            "providers": [
-                "RasulSafarovitch\\AlifCapitalEquiring\\PaymentMethodServiceProvider"
-            ],
-            "aliases": {
-                "PaymentMethod": "RasulSafarovitch\\AlifCapitalEquiring\\Facades\\PaymentMethod"
-            }
-        }
-    },
     "authors": [
         {
             "name": "Rasul Safarovitch"
