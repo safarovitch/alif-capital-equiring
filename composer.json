@@ -23,5 +23,12 @@
     },
     "require-dev": {
         "phpunit/phpunit": "^11.3"
-    }
+    },
+    "post-install-cmd": [
+        "@setup-git-hooks"
+    ],
+    "post-update-cmd": [
+        "@setup-git-hooks"
+    ],
+    "setup-git-hooks": "bash scripts/setup-git-hooks.sh"
 }
