@@ -1,11 +1,11 @@
 {
-    "name": "rasulsafarovitch/alif-capital-equiring",
+    "name": "rasul-safarovitch/alif-payment-integration",
     "description": "Alif capital payment methods",
     "type": "library",
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "RasulSafarovitch\\AlifCapitalEquiring\\": "src/"
+            "RasulSafarovitch\\AlifPaymentIntegration\\": "src/"
         }
     },
     "authors": [
