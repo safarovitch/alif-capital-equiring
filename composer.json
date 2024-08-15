@@ -1,0 +1,37 @@
+{
+    "name": "rasulsafarovitch/alif-capital-equiring",
+    "description": "Alif capital payment methods",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "RasulSafarovitch\\AlifCapitalEquiring\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "RasulSafarovitch\\AlifCapitalEquiring\\PaymentMethodServiceProvider"
+            ],
+            "aliases": {
+                "PaymentMethod": "RasulSafarovitch\\AlifCapitalEquiring\\Facades\\PaymentMethod"
+            }
+        }
+    },
+    "authors": [
+        {
+            "name": "Rasul Safarovitch"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": "^8.0",
+        "guzzlehttp/guzzle": "^7.0", 
+        "illuminate/support": "^10.0",
+        "illuminate/contracts": "^10.0",
+        "ext-hash": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^11.3"
+    }
+}
