@@ -11,6 +11,7 @@ class AlifClient implements AlifClientInterface
     protected $httpClient;
     protected $key;
     protected $password;
+    protected $hmac_password;
 
     public function __construct(string $key, string $password)
     {
@@ -19,7 +20,7 @@ class AlifClient implements AlifClientInterface
             'headers' => ['Accept' => 'application/json']
         ]);
         $this->key = $key;
-        $this->password = hash_hmac('sha256', $password, $key);
+        $this->hmac_password = hash_hmac('sha256', $password, $key);
     }
 
     protected function generateToken(string $stringToHash): string
